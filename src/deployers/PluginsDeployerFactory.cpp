@@ -95,9 +95,9 @@ std::vector<std::shared_ptr<PluginsDeployer>> PluginsDeployerFactory::getDeploye
         return {getInstance<GamepadPluginsDeployer>(moduleName)};
     }
 
-    if (moduleName == "printsupport") {
-        return {getInstance<PrintSupportPluginsDeployer>(moduleName)};
-    }
+    //if (moduleName == "printsupport") {
+    //    return {getInstance<PrintSupportPluginsDeployer>(moduleName)};
+    //}
 
     if (moduleName == "texttospeech") {
         return {getInstance<TextToSpeechPluginsDeployer>(moduleName)};
