@@ -1,12 +1,12 @@
 cmake_minimum_required(VERSION 3.6)
 project(linuxdeploy-plugin-qt)
 
-include(CTest)
+###include(CTest)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-include(CTest)
+###include(CTest)
 
 if(BUILD_TESTING)
     # including this before including lib/ makes sure that the top level project's gtest is used everywhere
